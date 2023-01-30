@@ -45,6 +45,19 @@ DATA = "8e2 8#d2 8e2 8#d2 8e2 8b1 8d2 8c2 4a1 8- 8c1 8e1 8a1 4b1 8- 8e1 8#g1 8b1
 TEMPO = 160
 DATA = "8e2 8e2 8e2 8e2 4e2 8d2 8c2 8a1 2c2 8- 8c2 8d2 8e2 8e2 8e2 8e2 8e2 8e2 8d2 8c2 8a1 2c2 8- 8c2 8c2 8d2 8d2 8d2 8b1 8c2 8d2 8e2 16- 16e2 16f2 16f2 8e2 8d2 8c2 8b1 8c2 8d2"
 
+# lose_yourself
+TEMPO = 250
+DATA = "4a2 8- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 4f2 8- 8d1 4- 8d1 4- 8d1 4- 4g2 8- 8d1 4- 4c3 8#a2 4a2 8g2 4a2 8- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 8d1 4- 4f2 8- 8d1 4- 8d1 4- 8d1 4- 4g2 8- 8d1 4- 4c3 8#a2 4a2 8g2 4a2"
+
+# sandstorm
+TEMPO = 90
+DATA = "16e2 16e2 16e2 16e2 8e2 16e2 16e2 16a2 16a2 16a2 16a2 16g2 16g2 16g2 16d2 16e2 16e2 16e2 16e2 8e2 16e2 16a2 16e2 16e2 16e2 16e2 8e2 16e2 16d2 16e2 16e2 16e2 16e2 16e2 8e2 16e2 16e2 16a2 16a2 16a2 16a2 16g2 16g2 16g2 16d2 16e2 16e2 16e2 16e2 8e2 16e2 16a2 16e2 16e2 16e2 16e2 8e2 16e2 16d2 16e2 16e2 16e2 16e2 16e2 8e2 16e2 16e2 16a2 16a2 16a2 16a2 16g2 16g2 16g2 16d2 16e2 16e2 16e2 16e2 8e2 16e2 16a2 16e2 16e2 16e2 16e2 8e2 16e2 16d2 16e2"
+
+# light_my_fire
+TEMPO = 120
+DATA = "8b2 16g2 16a2 8b2 8d3 8c3 8b2 8a2 8g2 8a2 16f2 16a2 8c3 8f3 16d3 16c3 16#a2 16g2 8#g2 8g2 8#g2 16g2 16a2 8b2 8#c3 16b2 16a2 16g2 16f2 8e2 8f2 1a2 4a2"
+
+
 full_note = 200.0 / TEMPO
 print("DIR=/sys/devices/platform/soc/ff800000.bus/ff807000.pwm/pwm/pwmchip2/pwm0")
 for note_pitch, note_duration in parse_ringtone(DATA):
